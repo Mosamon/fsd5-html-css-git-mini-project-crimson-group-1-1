@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.bottom-line {
+  height: 6px;
+  width: 68px;
+  background-color: #1374f6;
+  border-radius: 25px;
+  position: relative;
+  left: 280px;
+  bottom: 7px;
+}
+
+.text-3xl h1 {
+  color: #0b0757;
+  font-size: 48px;
+}
+
+.section-our-service p {
+  color: #8480ae;
+  font-weight: 400;
+}
+
+.product-card {
+  background-color: #f9fbff;
+  border-radius: 21px;
+}
+
+h2 {
+  color: #0b0757;
+  font-weight: 500;
+}
+
+.conversation-card {
+  margin-left: -20px;
+}
+
+.card-review {
+  height: 600px;
+}
+.comment-review {
+  /* width: 602px;
+  height: 153px; */
+  color: #8480ae;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.review-name {
+  color: #fdc46e;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.review-name-position {
+  color: #8480ae;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.like-background {
+  width: 76px;
+  height: 76px;
+  border-radius: 10px;
+  background: #64d5fd;
+  position: absolute;
+  left: -40px;
+}
+.dot-1 {
+  top: 180px;
+  left: 1800px;
+}
+.dot-2 {
+  top: 245px;
+  left: 1845px;
+}
+
+@media only screen and (max-width: 600px) {
+  .services-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-review {
+    display: flex;
+    flex-direction: column;
+  }
+  .comment-review {
+    width: 400px;
+    height: 200px;
+    font-size: 18px;
+  }
+  .people-review {
+    text-align: center;
+  }
+  .quote-comment {
+    margin-top: -40px;
+  }
+}

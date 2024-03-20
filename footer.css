@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#sign-up-box {
+  background-color: rgba(244, 247, 252, 1);
+  width: 1110px;
+  height: 389px;
+}
+#button-sign {
+  background-color: rgba(19, 116, 246, 1);
+  position: relative;
+  bottom: 72px;
+  left: 158px;
+}
+#information-box {
+  width: 1410px;
+  padding: 120px 165px 34px 154px;
+}
+#agencio-features,
+#agencio-about,
+#agencio-resources {
+  display: flex;
+  flex-direction: column;
+}
+h1,
+h2,
+#agencio-footer {
+  color: rgba(11, 7, 87, 1);
+}
+p,
+#agencio-description,
+#sign-up-description {
+  color: rgba(132, 128, 174, 1);
+}
+#button-for-phone,
+#blank-line-head {
+  display: none;
+}
+#copyright-text {
+  color: rgba(11, 7, 87, 0.2);
+}
+@media only screen and (max-width: 600px) {
+  #footer-section {
+    height: auto;
+    width: 450px;
+    overflow-x: hidden;
+    margin-top: 30px;
+  }
+  #footer-section,
+  #sign-up-box,
+  #information-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #sign-up-box {
+    height: 390px;
+  }
+  h1 {
+    width: 3px;
+  }
+  #agencio-features p,
+  #agencio-about p,
+  #agencio-resources p {
+    display: none;
+  }
+  #button-sign {
+    position: relative;
+    top: auto;
+  }
+  #information-box {
+    padding-top: 46px;
+  }
+  #agencio-description {
+    line-height: 2;
+  }
+  #social-icon {
+    margin-top: 40px;
+  }
+  #agencio-features,
+  #agencio-about,
+  #agencio-resources {
+    color: rgba(11, 7, 87, 1);
+    font-size: 20px;
+    margin-top: 48px;
+    border-bottom: solid rgb(237, 237, 237);
+    width: 400px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #button-for-phone {
+    display: block;
+    position: relative;
+    left: 360px;
+    bottom: 25px;
+  }
+  #blank-line-head {
+    display: block;
+  }
+  hr {
+    display: none;
+  }
+  #copyright-text {
+    padding-bottom: 25px;
+  }
+}

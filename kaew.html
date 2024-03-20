@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agencio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="kaew.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {},
+            fontFamily: {
+              rubik: "Rubik",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="h-screen">
+    <section class="h-full bg-white xl:flex xl:justify-end xl:items-center">
+      <div
+        class="relative h-full w-full p-2 font-rubik flex flex-col justify-start items-start bg-cover xl:items-end xl:bg-right xl:max-w-7xl xl:max-h-min"
+        style="background-image: url(images-kaew/bg.png)"
+      >
+        <div
+          class="xl:flex xl:flex-col xl:justify-center xl:items-start xl:h-fit xl:w-1/2 xl:relative xl:mr-32 xl:mt-44"
+        >
+          <h1 class="text-5xl text-[#0B0757]">We Take The Work</h1>
+          <h1 class="text-5xl text-[#0B0757]">
+            Of Your Hand <span class="text-[#1374F6]">_</span>
+          </h1>
+          <br />
+          <p class="text-lg text-[#8480AE]">
+            It's crafted with the latest trend of design & coded with all modern
+            approaches. It's a robust & multi-dimensional usable. Nostrum
+            placeat hic, praesent atque ornare minim.
+          </p>
+          <br />
+          <p class="text-lg text-[#8480AE]">
+            nihil suscipit aliquet excepteur bibendum cumque facilis senectus
+            habitant aliquid cupidatat! Fugit? Nisl dignissimos ratione
+          </p>
+          <br />
+          <button
+            type="submit"
+            class="bg-blue-600 rounded-lg h-16 w-40 text-white"
+          >
+            Discover More
+          </button>
+        </div>
+
+        <div class="h-96 w-full relative flex justify-center xl:absolute">
+          <img
+            src="images-kaew/Mask_Group_1.png"
+            alt=""
+            class="absolute z-20 p-10 xl:-left-8 -top-6"
+          />
+          <img
+            src="images-kaew/Group 41.png"
+            alt=""
+            class="absolute z-30 -left-32 top-32 p-28 xl:-left-52 xl:top-56"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
